@@ -8,7 +8,20 @@ import (
 
 func Calc(expression string) (float64, error) {
 	index := 0
-	return parseExpression(expression, &index)
+	result, err := parseExpression(expression, &index)
+	if err != nil {
+
+		return 0, errors.New("Expression is not valid")
+	}
+
+	for index < len(expression) {
+		if expression[index] != ' ' {
+			return 0, errors.New("Expression is not valid")
+		}
+		index++
+	}
+
+	return result, nil
 }
 
 func parseExpression(expression string, index *int) (float64, error) {
