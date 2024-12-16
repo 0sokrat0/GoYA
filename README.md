@@ -33,7 +33,7 @@
 ### 1️⃣ Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/ваш-логин/calc_service.git
+git clone https://github.com/0sokrat0/GoYA.git
 ```
 
 ### 2️⃣ Запустите сервер:
