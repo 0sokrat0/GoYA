@@ -9,7 +9,6 @@
 <p align="center">
   <img alt="GoLang" src="https://img.shields.io/badge/Go-v1.23.4-blue?style=flat-square&logo=go"/>
   <img alt="Gorilla Mux" src="https://img.shields.io/badge/Gorilla%20Mux-Router-orange?style=flat-square"/>
-  <img alt="net/http" src="https://img.shields.io/badge/Gorilla%20Mux-Router-orange?style=flat-square"/>
 </p>
 <p align="center">
   <a href="https://t.me/SOKRAT_00">
